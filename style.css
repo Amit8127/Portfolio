@@ -157,6 +157,15 @@ body {
     0 0 200px cyan;
 }
 
+.home-imgHover img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 2px solid aliceblue;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+
 .about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -392,7 +401,7 @@ body {
   content: "90%";
 }
 
-.progress-line.scss span::after {
+.progress-line.css span::after {
   content: "90%";
 }
 
