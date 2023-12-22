@@ -23,7 +23,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 10%;
+  padding: 10px 10%;
   background: #0a3355;
   display: flex;
   justify-content: space-between;
@@ -34,8 +34,12 @@ body {
 
 .logo {
   position: relative;
-  font-size: 25px;
-  color: #fff;
+  font-size: 40px;
+  /* color: #fff; */
+  -webkit-background-clip: text;
+	background-clip: text;
+	background-image: url('Assets/name\ bg.jpg');
+	color: transparent;
   text-decoration: none;
   font-weight: 600;
   cursor: default;
@@ -99,6 +103,8 @@ body {
 .home-content h1 {
   font-size: 56px;
   font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 10px #0ef;
   margin: -3px 0;
   opacity: 0;
   animation: slideRight 1s ease forwards;
