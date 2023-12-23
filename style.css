@@ -161,8 +161,7 @@ body {
 }
 
 .btn-box:hover {
-  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
-    0 0 200px cyan;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan;
 }
 
 .home-imgHover img {
@@ -170,8 +169,7 @@ body {
   height: 500px;
   border-radius: 50%;
   border: 2px solid cyan;
-  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
-    0 0 200px cyan;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan;
 }
 
 .about {
@@ -296,8 +294,7 @@ body {
 }
 
 .read:hover {
-  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
-    0 0 200px cyan;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan;
 }
 
 .services-list div:hover {
@@ -744,7 +741,7 @@ form textarea {
   outline: none;
   width: 100%;
   padding: 18px;
-  background: #cdcdcf;
+  background: #e8f0fe;
   color: #000;
   font-size: 1rem;
   font-weight: 600;
@@ -775,8 +772,7 @@ form textarea {
 }
 
 .contact-form form .send:hover {
-  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
-    0 0 200px cyan;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan;
 }
 
 .last-text p {
