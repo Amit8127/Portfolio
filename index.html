@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amit Kumar Portfolio</title>
-    <link rel="shortcut icon" href="Assets/A logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/A logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -12,12 +12,13 @@
     />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
   </head>
   <body>
     <!-- Header section start -->
     <header class="header">
-      <a href="#" class="logo"><img src="Assets/A logo.png" alt="logo" height="40">mit.</a>
+      <a href="#" class="logo"
+        ><img src="Assets/A logo.png" alt="logo" height="40" />mit.</a
+      >
 
       <nav class="navbar">
         <a href="#home" style="--i: 1" class="active">Home</a>
@@ -60,7 +61,13 @@
             ><i class="bx bxl-whatsapp"></i
           ></a>
         </div>
-        <a href="https://drive.google.com/file/d/1RCPbDhxEckSS5MGNqRFB6vqdICPWT_tz/view?usp=sharing" download="Amit_Kumar_Resume.pdf" target="_blank" class="btn-box">Resume</a>
+        <a
+          href="https://drive.google.com/file/d/1RCPbDhxEckSS5MGNqRFB6vqdICPWT_tz/view?usp=sharing"
+          download="Amit_Kumar_Resume.pdf"
+          target="_blank"
+          class="btn-box"
+          >Resume</a
+        >
       </div>
       <span class="home-imgHover">
         <img src="Assets/Amit_Pic1.jpg" alt="Amit's pic" />
@@ -238,49 +245,52 @@
 
           <div class="project-content">
             <div class="row">
-              <img
-                src="Assets/BMS_Pic.png"
-                alt=""
-              />
+              <img src="Assets/podcast.jpg" alt="" />
+              <div class="layer">
+                <h5>Podcast Platform</h5>
+                <p>
+                  Engineered a robust web app with React, Firebase, and Redux
+                  Toolkit, designing an intuitive UI for key functionalities and
+                  configuring Firebase for authentication, database, and
+                  storage, demonstrating strong code structure understanding.
+                </p>
+                <a
+                  href="https://podcast-react-amit.netlify.app/"
+                  target="_blank"
+                  ><i class="bx bx-link-external" style="color: #0ef"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="row">
+              <img src="Assets/BMS_Pic.png" alt="" />
               <div class="layer">
                 <h5>BookMyShow Backend (Spring Boot)</h5>
                 <p>
-                  End-to-end Ticket Booking System with Spring Boot, Tomcat, JPA, Hibernate, MySQL DB. Includes Swagger UI, Email integration, and 10+ APIs.
+                  End-to-end Ticket Booking System with Spring Boot, Tomcat,
+                  JPA, Hibernate, MySQL DB. Includes Swagger UI, Email
+                  integration, and 10+ APIs.
                 </p>
-                <a href="https://github.com/Amit8127/Book-My-Show" target="_blank"
+                <a
+                  href="https://github.com/Amit8127/Book-My-Show"
+                  target="_blank"
                   ><i class="bx bx-link-external" style="color: #0ef"></i
                 ></a>
               </div>
             </div>
 
             <div class="row">
-              <img
-                src="Assets/VNS_Pic.jpg"
-                alt=""
-              />
+              <img src="Assets/VNS_Pic.jpg" alt="" />
               <div class="layer">
                 <h5>Vaccination Backend (Spring Boot)</h5>
                 <p>
-                  Vaccine management system: Tracks users, doctors, centers, appointments, doses. Utilizes Spring Boot, Tomcat, JPA, Hibernate, MySQL, Maven, and 20+ APIs for efficiency.
+                  Vaccine management system: Tracks users, doctors, centers,
+                  appointments, doses. Utilizes Spring Boot, Tomcat, JPA,
+                  Hibernate, MySQL, Maven, and 20+ APIs for efficiency.
                 </p>
-                <a href="https://github.com/Amit8127/Vaccination-Management-System" target="_blank"
-                  ><i class="bx bx-link-external" style="color: #0ef"></i
-                ></a>
-              </div>
-            </div>
-
-            <div class="row">
-              
-              <img
-                src="Assets/house-rent.jpg"
-                alt=""
-              />
-              <div class="layer">
-                <h5>Real Estate Website (React)</h5>
-                <p>
-                  A React-based real estate website delivers an immersive experience, showcasing properties elegantly with seamless navigation, ensuring a user-friendly and engaging platform.
-                </p>
-                <a href="https://fascinating-cassata-1ca6ab.netlify.app/" target="_blank"
+                <a
+                  href="https://github.com/Amit8127/Vaccination-Management-System"
+                  target="_blank"
                   ><i class="bx bx-link-external" style="color: #0ef"></i
                 ></a>
               </div>
@@ -296,7 +306,9 @@
         <h2>Contact <span>Me</span></h2>
         <h4>Let's work Together</h4>
         <p>
-          Excited to embark on a collaborative journey as a software developer! Eager to contribute fresh ideas, learn, and work together to create impactful and cutting-edge solutions. 
+          Excited to embark on a collaborative journey as a software developer!
+          Eager to contribute fresh ideas, learn, and work together to create
+          impactful and cutting-edge solutions.
         </p>
         <div class="contact-list">
           <li>
@@ -337,10 +349,25 @@
 
       <div class="contact-form">
         <form onsubmit="sendMail();return false" id="myForm">
-          <input type="text" id="sendername" placeholder="Enter Your Name" required />
-          <input type="email" id="from" placeholder="Enter Your Email" required />
+          <input
+            type="text"
+            id="sendername"
+            placeholder="Enter Your Name"
+            required
+          />
+          <input
+            type="email"
+            id="from"
+            placeholder="Enter Your Email"
+            required
+          />
 
-          <input type="text" id="subject" placeholder="Enter Your Subject" required />
+          <input
+            type="text"
+            id="subject"
+            placeholder="Enter Your Subject"
+            required
+          />
           <textarea
             name=""
             id="message"
@@ -350,12 +377,12 @@
             required
           ></textarea>
 
-          <input type="submit" value="submit" class="send"/>
+          <input type="submit" value="submit" class="send" />
         </form>
       </div>
     </section>
     <footer class="last-text">
-      <p>Developed with ❤️ by Amit Kumar © 2023</p>
+      <p>Developed with ❤️ by Amit Kumar © 2024</p>
     </footer>
     <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
     <!-- Script file -->
